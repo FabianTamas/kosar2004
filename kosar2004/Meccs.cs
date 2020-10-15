@@ -9,6 +9,11 @@
         public string Hely { get; private set; }
         public string Ido { get; private set; }
 
+        public string Atalakit()
+        {
+            return Hazai + " - " + Idegen + " ("+HPont+":"+IPont+")";
+        }
+
         public Meccs(string hazai, string idegen, int hpont, int ipont, string hely, string ido)
         {
             this.Hazai = hazai;
